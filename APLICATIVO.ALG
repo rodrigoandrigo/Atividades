@@ -1,59 +1,59 @@
 Algoritmo "Aplicativo"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Aldo Henrique
-// Descrição   : Programa
+// DescriÃ§Ã£o   : Programa
 // Autor(a)    : Rodrigo de Souza Ferreira
-//Esse é um algoritmo criado pelo rodrigo de souza ferreira
+//Esse Ã© um algoritmo criado pelo rodrigo de souza ferreira
 // Data atual  : 27/03/2018
 Var
-// Aqui estão todas as variaveis que usei neste programa
+// Aqui estÃ£o todas as variaveis que usei neste programa
  n1,n2,n3,n4,n5,n6,soma,diferen:inteiro
  Media,result:real
  escolhas,contado:inteiro
- m,f,masculi,femin,s:inteiro
+ m,f,masculi,femin,s,idade:inteiro
  mediamaculin,mediafemin,mediaidade:inteiro
  x,y,z,p:inteiro
 Inicio
     Enquanto (escolhas <> 7) faca
-    Escreval("1 Realizar a soma de dois números")
-    Escreval("2 Realizar a subtração de dois números")
-    Escreval("3 Realizar a divisao de dois números")
+    Escreval("1 Realizar a soma de dois nÃºmeros")
+    Escreval("2 Realizar a subtraÃ§Ã£o de dois nÃºmeros")
+    Escreval("3 Realizar a divisao de dois nÃºmeros")
     Escreval("4 Quantidade de pessoas e media das idades")
     Escreval("5 Ver numeros primos de uma ponta a outra")
     Escreval("6")
     Escreval("7 deseja sair")
-    Escreval("Digite o numero da opção que deseja usar")
+    Escreval("Digite o numero da opÃ§Ã£o que deseja usar")
  Leia(escolhas)
  Escolha escolhas
 
- //esse é o algoritmo da soma
+ //esse Ã© o algoritmo da soma
  caso 1
- Escreval("Escreva o primeiro número que quer somar")
+ Escreval("Escreva o primeiro nÃºmero que quer somar")
  Leia(n1)
  Escreval("escreva o segundo numero")
  Leia(n2)
  soma <- n1+n2
  Escreval("resultado da soma",soma)
  
- //esse é o algoritmo da subtração
+ //esse Ã© o algoritmo da subtraÃ§Ã£o
  caso 2
- Escreval("Escreva o primeiro número que quer subrair")
+ Escreval("Escreva o primeiro nÃºmero que quer subrair")
  Leia(n3)
  Escreval("escreva o segundo numero")
  Leia(n4)
  diferen <- n3-n4
- Escreval("resultado da Subtraçao",diferen)
+ Escreval("resultado da SubtraÃ§ao",diferen)
 
- //esse é o algoritmo da divisão
+ //esse Ã© o algoritmo da divisÃ£o
  Caso 3
- Escreval("Escreva o primeiro número que quer dividir")
+ Escreval("Escreva o primeiro nÃºmero que quer dividir")
  Leia(n5)
  Escreval("escreva o segundo numero")
  Leia(n6)
  media <- n5/n6
- Escreval("resultado da divisão",media)
+ Escreval("resultado da divisÃ£o",media)
 
- //esse é o algoritmo da media das idades
+ //esse Ã© o algoritmo da media das idades
  caso 4
  Escreval("Escreva a quantidade de pessoas")
  Leia(s)
@@ -77,13 +77,13 @@ Inicio
  mediamaculin <- masculi/m
  mediafemin <- femin/f
  mediaidade <- femin/masculi
- escreval("A media total das idades é", mediaidade)
- escreval("A media das idades masculinas é",mediamaculin)
- escreval("A media das idades femininas é",mediafemin)
+ escreval("A media total das idades Ã©", mediaidade)
+ escreval("A media das idades masculinas Ã©",mediamaculin)
+ escreval("A media das idades femininas Ã©",mediafemin)
 
-// Aqui certamente voçe vera os numeros primos
+// Aqui certamente voÃ§e vera os numeros primos
  Caso 5
- Escreval("escreva ate que numero quer vê o numero primo")
+ Escreval("escreva ate que numero quer vÃª o numero primo")
  Leia(z)
  Para x de 1 ate z faca
  p <- 0
@@ -97,6 +97,7 @@ Inicio
  Fimse
 
  Fimpara
- //esse é o fim da execuçao das opções
+ //esse Ã© o fim da execuÃ§ao das opÃ§Ãµes
  Fimescolha
+ Fimenquanto
 Fimalgoritmo
