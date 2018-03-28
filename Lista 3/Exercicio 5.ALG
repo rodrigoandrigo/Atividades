@@ -8,15 +8,17 @@ Var
 // Seção de Declarações das variáveis 
 x,x2,x3:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-Para x de 1 ate 1000 passo 1 faca
-
+// Seção de Comandos, procedimento, funções, operadores, etc...
+enquanto (x <1000) faca
+Escreval("Escreva um numero positivo")
+leia(x)
 Se(x mod 2 = 0)entao
 x2 <- x2 + x
 Senao entao
 x3 <- x3 + x
 Fimse
-Fimpara
+
+Fimenquanto
 Escreval("A soma de todos os numeros pares é",x2)
 Escreval("A soma de todos os numeros impares é",x3)
 
