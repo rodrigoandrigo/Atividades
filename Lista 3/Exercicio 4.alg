@@ -1,15 +1,15 @@
-Algoritmo "Tabuada"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+Algoritmo "Divisiveis por 11"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Aldo henrique
-// Descrição   : tabuada
+// DescriÃ§Ã£o   : Divisivel por 11 e que dÃ¡ resto 5
 // Autor(a)    : rodrigo de souza
 // Data atual  : 21/03/2018
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 n1:inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 para n1 de 1000 ate 1999 passo 1 faca
 se(n1 mod 11=5)entao
  escreval(n1)
