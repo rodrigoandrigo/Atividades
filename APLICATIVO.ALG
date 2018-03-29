@@ -55,31 +55,34 @@ Inicio
 
  //esse é o algoritmo da media das idades
  caso 4
- Escreval("Escreva a quantidade de pessoas")
- Leia(s)
- contado <- 1
- Enquanto(contado >= s) faca
- Escreval("Escreva a sua idade")
- Leia(idade)
- Escreval("Escreva 1 para masculino")
- Escreval("Escreva 2 para feminino")
- Leia(sexo)
- Se(sexo = 1)
- m <- m + 1
- masculi <- masculi + idade
- Se(sexo = 2)
- f <- f + 1
- femin <- femin + idade
- Fimse
- Fimse
- contado <- contado +1
- fimenquanto
- mediamaculin <- masculi/m
- mediafemin <- femin/f
- mediaidade <- femin/masculi
- escreval("A media total das idades é", mediaidade)
- escreval("A media das idades masculinas é",mediamaculin)
- escreval("A media das idades femininas é",mediafemin)
+ Escreval("Escreva a quantidade de pessoas + 1")
+   Escreval("Se for 6 pessoas escreva 7, se for 4 pessoas escreva 5")
+   Leia(s)
+   contado <- 1
+
+   repita
+      Escreval("Escreva a sua idade")
+      Leia(idade)
+      Escreval("Escreva 1 para masculino")
+      Escreval("Escreva 2 para feminino")
+      Leia(sexo)
+      Se(sexo = 1)entao
+         m <- m + 1
+         masculi <- masculi + idade
+      fimse
+      Se(sexo = 2)entao
+         f <- f + 1
+         femin <- femin + idade
+      Fimse
+      contado <- contado + 1
+   ate(contado = s)
+
+   mediamaculin <- masculi/m
+   mediafemin <- femin/f
+   mediaidade <- femin/masculi
+   escreval("A media total das idades é", mediaidade)
+   escreval("A media das idades masculinas é",mediamaculin)
+   escreval("A media das idades femininas é",mediafemin)
 
 // Aqui certamente voçe vera os numeros primos
  Caso 5
