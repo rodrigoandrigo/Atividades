@@ -1,15 +1,15 @@
-Algoritmo "Tabuada"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+Algoritmo "Algoritmo de soma"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Aldo henrique
-// Descrição   : tabuada
+// DescriÃ§Ã£o   : soma varios numeros
 // Autor(a)    : rodrigo de souza
 // Data atual  : 21/03/2018
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 result:real
 x,y:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 y <- 1
 para x de 1 ate 99 passo 2 faca
  result <- x/y
