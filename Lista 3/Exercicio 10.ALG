@@ -1,17 +1,17 @@
-Algoritmo "Número"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+Algoritmo "NÃºmero"
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Aldo Henrique
-// Descrição   : Escreva um numero e veja os primeiros numeros primos
+// DescriÃ§Ã£o   : Escreva um numero e veja os primeiros numeros primos
 // Autor(a)    : Rodrigo de Souza
 // Data atual  : 29/03/2018
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 x,y,p,n:inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
- Escreval("Escreva um número")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+ Escreval("Escreva um nÃºmero")
  leia(n)
- Para x de 1 ate 50 faca
+ Para x de 1 ate n faca
  p <- 0
  Para y de 1 ate x faca
  Se (x mod y=0)entao
