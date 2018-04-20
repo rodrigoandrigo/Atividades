@@ -11,6 +11,7 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
  Escreval("Escreva um número")
  leia(n)
+ Escreval("Os primeiros numeros primos são:")
  Para x de 1 ate n faca
  p <- 0
  Para y de 1 ate x faca
